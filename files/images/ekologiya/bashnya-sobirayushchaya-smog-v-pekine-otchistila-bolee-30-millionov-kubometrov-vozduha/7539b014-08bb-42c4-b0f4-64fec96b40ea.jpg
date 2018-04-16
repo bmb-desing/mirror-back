@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="apple-mobile-web-app-capable" content="YES" />
+	<title>404 - Ошибка: 404</title>
+	<link rel="stylesheet" href="/templates/system/css/error.css" type="text/css" />
+		
+	<link rel="stylesheet" href="/media/jui/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/media/jui/css/bootstrap-responsive.min.css" type="text/css" />
+	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+		<script src="/media/jui/js/PIE_IE678.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+		<script src="/media/jui/js/PIE_IE9.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="row-fluid">
+			<div id="content" class="span12">
+				<!-- Begin Content -->
+				<h1 class="page-header">Такой страницы не существует.</h1>
+				<div class="well">
+					<div class="row-fluid">
+						<div class="span6">
+							<p><strong>В процессе обработки вашего запроса произошла ошибка.</strong></p>
+							<p>Вы не можете посетить текущую страницу по причине:</p>
+							<ul>
+								<li><b>просроченная закладка/избранное</b></li>
+								<li><strong>пропущен адрес</strong></li>
+								<li>поисковый механизм, у которого <strong>просрочен список для этого сайта</strong></li>
+								<li>у вас <strong>нет права доступа</strong> на эту страницу</li>
+							</ul>
+						</div>
+						<div class="span6">
+														<p>Вернуться на Домашнюю страницу</p>
+							<p><a href="/index.php" class="btn"><i class="icon-home"></i> Домашняя страница</a></p>
+						</div>
+					</div>
+					<hr />
+					<p>Если проблемы продолжатся, пожалуйста, обратитесь к системному администратору сайта и сообщите об ошибке, описание которой приведено ниже.</p>
+					<blockquote>
+						<span class="label label-inverse">404</span> Категория не найдена					</blockquote>
+					<p>
+											</p>
+				</div>
+				<!-- End Content -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>

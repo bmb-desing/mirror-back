@@ -1,0 +1,5 @@
+PassengerEnabled On
+PassengerNodejs /home/x/xolmsb8e/.local/bin/node
+PassengerAppRoot /home/x/xolmsb8e/api.mirror-universe.ru
+PassengerAppType node
+PassengerStartupFile bin/www

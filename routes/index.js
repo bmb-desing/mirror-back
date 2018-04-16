@@ -1,0 +1,15 @@
+var express = require('express');
+var router = express.Router();
+var comment = require('./comment');
+var post = require('./post');
+var rating = require('./rating');
+var visit = require('./visit');
+var system = require('./system');
+var sitemapController = require('../controllers/sitemapController');
+router.use('/comments', comment);
+router.use('/posts', post);
+router.get('/sitemap', sitemapController.generateSitemap);
+router.use('/ratings', rating);
+router.use('/visits', visit);
+router.use('/system', system);
+module.exports = router;

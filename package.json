@@ -1,0 +1,33 @@
+{
+  "name": "mirror-back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cache-manager": "^2.9.0",
+    "cache-manager-express-mw": "^0.3.5",
+    "cache-manager-fs": "^1.0.6",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "mkdirp": "^0.5.1",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.5.3",
+    "needle": "^2.2.0",
+    "node-schedule": "^1.3.0",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0",
+    "sequelize": "^4.37.5",
+    "striptags": "^3.1.1",
+    "transliteration": "^1.6.2"
+  }
+}
